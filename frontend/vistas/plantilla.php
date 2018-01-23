@@ -24,7 +24,6 @@
 		$url = Ruta::ctrRuta();
 
 	?>
-
 	
 	<link rel="stylesheet" href="<?php echo $url; ?>vistas/css/plugins/bootstrap.min.css">
 
@@ -43,6 +42,8 @@
 	<script src="<?php echo $url; ?>vistas/js/plugins/jquery.min.js"></script>
 
 	<script src="<?php echo $url; ?>vistas/js/plugins/bootstrap.min.js"></script>
+
+	<script src="<?php echo $url; ?>vistas/js/plugins/jquery.easing.js"></script>
 </head>
 <body>
 
