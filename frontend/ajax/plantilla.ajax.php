@@ -8,9 +8,11 @@ class AjaxPlantilla{
 	public function ajaxEstiloPlantilla(){
 
 		$respuesta = ControladorPlantilla::ctrEstiloPlantilla();
+
 		echo json_encode($respuesta);
 
 	}
+
 
 }
 

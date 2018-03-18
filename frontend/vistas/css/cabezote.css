@@ -1,42 +1,39 @@
-/*=====================================
+/*=============================================
 TOP
-======================================*/
+=============================================*/
+
 #top ul{
-	padding-top: 8px;
+	padding-top:8px;
 }
 
 #top ul li{
-	display: inline;
-	line-height: 30px;
-	margin: 0px 5px;
-	color: white;
+	display:inline;
+	line-height:30px;
+	margin:0px 5px;
+	color:white;
 }
 
 .social ul li a i{
-	font-size: 18px;
-	margin: 0 1px;
+	font-size:18px;
+	margin:0 1px;
 }
 
 .registro ul{
 	text-align: right;
-	font-size: 12px;
+	font-size:12px;
 }
-/*=====================================
-HEADER
-======================================*/
 
-header #logotipo img{
-	padding: 20px 60px;
-	padding-left: 0px;
-}
+/*=============================================
+HEADER
+=============================================*/
 
 header #btnCategorias{
-	margin: 20px 0;
+	margin:20px 0;
 }
 
 header #btnCategorias p{
-	line-height: 40px;
-	margin-bottom: 0px;
+	line-height:40px;
+	margin-bottom:0px;
 }
 
 header #btnCategorias p span{
@@ -44,18 +41,18 @@ header #btnCategorias p span{
 }
 
 header #buscador{
-	margin: 20px 0;
+	margin:20px 0;
 }
 
 header #buscador input{
-	padding: 19px;
-	border-radius: 0;
+	padding:19px;
+	border-radius:0;
 }
 
 header #buscador button{
-	padding: 9px;
+	padding:9px;
 	border:1px solid silver;
-	border-radius: 0;
+	border-radius:0;
 }
 
 header #carrito{
@@ -63,130 +60,138 @@ header #carrito{
 }
 
 header #carrito button{
-	padding: 9px 15px;
-	border: 1px solid silver;
-	border-radius: 0;
+	padding:9px 15px;
+	border:1px solid silver;
+	border-radius:0;
 }
 
 header #carrito p{
-	padding: 2px;
-	padding-left: 60px;
+	padding:2px;
+	padding-left:60px;
 	border:1px solid #aaa;
-	font-size: 12px;
+	font-size:12px;
 }
 
 header #categorias{
 	display:none;
-	margin-top: -10px;
+	margin-top:-10px;
 	position: relative;
-	padding-bottom: 20px;
+	padding-bottom:20px;
 }
 
 header #categorias h4{
-	margin-top: 20px;
-	margin-bottom: -10px;
+	margin-top:20px;
+	margin-bottom:-10px;
 }
 
 header #categorias hr{
 	border:1px solid rgba(255,255,255,.3);
 }
 
-/*=====================================
-ESCRITORIO GRANDE 1366px en adelante
-======================================*/
 
-@media (min-width: 1200px){
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
 
-	/*=====================================
+@media (min-width:1200px){
+
+	/*=============================================
 	HEADER
-	======================================*/
+	=============================================*/
+
 	header #logotipo img{
-		padding: 20px 60px;
-		padding-left: 0px;
+		padding:20px 60px;
+		padding-left:0px;
 	}
 
 	header #carrito{
-		padding-left: 100px;
+		padding-left:100px;
 	}
+
 }
 
-/*=====================================
-ESCRITORIO MEDIANO O TABLET HORIZONTAL MD 1024px
-======================================*/
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
 
-@media (max-width: 1199px) and (min-width: 992px){
+@media (max-width:1199px) and (min-width:992px){
 
-	/*=====================================
+	/*=============================================
 	HEADER
-	======================================*/
+	=============================================*/
+
 	header #logotipo img{
-		padding: 25px 60px;
-		padding-left: 0px;
+		padding:25px 60px;
+		padding-left:0px;
 	}
 
 	header #carrito{
-		padding-left: 70px;
+		padding-left:70px;
 	}
+
 }
 
-/*=====================================
-ESCRITORIO PEQUEÑO O TABLET VERTICAL SM 768px
-======================================*/
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
 
-@media (max-width: 991px) and (min-width: 768px){
+@media (max-width:991px) and (min-width:768px){
 
-	/*=====================================
+	/*=============================================
 	HEADER
-	======================================*/
+	=============================================*/
+
 	header #logotipo img{
-		padding: 30px 0px;	
+		padding:30px 0px;
 	}
 
 	header #carrito{
-		padding-left: 55px;
+		padding-left:55px;
 	}
 
 	header #carrito p{
 		display:none;
 	}
+
 }
 
-/*=====================================
-MOVIL XD 320px
-======================================*/
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
 
-@media (max-width: 767px){
+@media (max-width:767px){
 
-	/*=====================================
+	/*=============================================
 	TOP
-	======================================*/
+	=============================================*/
 
 	#top ul{
 		text-align: center;
 	}
 
 	#top #registro{
-		border-top: 1px solid #222;
+		border-top:1px solid #222;
+	}
+	
+	/*=============================================
+	HEADER
+	=============================================*/
+
+	header #logotipo img{
+		padding:30px;
+		padding-bottom:10px;
 	}
 
-	/*=====================================
-	HEADER
-	======================================*/
-	header #logotipo img{
-		padding: 30px;
-		padding-bottom: 10px;
-	}	
-	
 	header #categorias{
-		margin-bottom: 10px;
+		margin-bottom:10px;
 	}
 
 	header #buscador{
-		margin-bottom: 10px;
+		margin-bottom:10px;
 	}
 
 	header #carrito{
 		margin:0px;
 	}
-}	
-
+	
+}

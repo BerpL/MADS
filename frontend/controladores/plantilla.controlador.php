@@ -3,20 +3,26 @@
 class ControladorPlantilla{
 
 	/*=============================================
-	LLAMAMOS A LA PLANTILLA
+	LLAMAMOS LA PLANTILLA
 	=============================================*/
-	
+
 	public function plantilla(){
+
 		include "vistas/plantilla.php";
+
 	}
 
 	/*=============================================
-	LLAMAMOS A LA PLANTILLA
+	TRAEMOS LOS ESTILOS DINÁMICOS DE LA PLANTILLA
 	=============================================*/
 
 	public function ctrEstiloPlantilla(){
+
 		$tabla = "plantilla";
+
 		$respuesta = ModeloPlantilla::mdlEstiloPlantilla($tabla);
+
 		return $respuesta;
 	}
+
 }
